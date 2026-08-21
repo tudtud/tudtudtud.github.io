@@ -1,8 +1,8 @@
 // Tunable constants. These are the numbers most likely to change as more
 // verified guitars come in — keep them here rather than inline.
 export const CONFIG = {
-  email:      "you@yourdomain.com",
-  price:      "$40",
+  email: "you@yourdomain.com",
+  price: "$40",
   turnaround: "48 hours",
 
   axisMin: 1950,
@@ -14,6 +14,7 @@ export const CONFIG = {
 
   // Body, cavity and pickup dates land nearer final assembly.
   bodyLagYears: 0.3,
+  cavityLagYears: 0.3,
 
   // Heel and pot dates more than this far apart suggest a swap.
   // Observed on verified originals so far: 1.3, ~4.0 and 10.6 months.
